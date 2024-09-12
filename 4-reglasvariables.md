@@ -6,15 +6,17 @@ Existen reglas para crear variables, algunas son prácticas de la industria, y o
 2. Las variables no pueden ser nombradas al igual que palabras reservadas, por ejemplo, la primera palabra reservada es **LET**, entoncesn o se puede definir una palabra que se llame **LET**.
 3. Cuando nosotros estamos creando variables, nosotros podemos seguir tres convenciones:
 
+```
    - UpperCamelCase
    - camelCase
    - snake_case
+```
 
-   a) UpperCamelCase significa que, cuando nosotros creemos una variable, la primera letra de cada palabra que nosotros utilicemos para nombrar esa variable, tiene que ser mayúscula, y si existe otra palabra dentro de esa misma variable, también va tener que contener una mayúscula, y así también si existiese otra palabra.
+a) UpperCamelCase significa que, cuando nosotros creemos una variable, la primera letra de cada palabra que nosotros utilicemos para nombrar esa variable, tiene que ser mayúscula, y si existe otra palabra dentro de esa misma variable, también va tener que contener una mayúscula, y así también si existiese otra palabra.
 
-   b) camelCase, por el contrario, nos exige que cada palabra empiece con mayúscula, sin embargo la primera palabra NO.
+b) camelCase, por el contrario, nos exige que cada palabra empiece con mayúscula, sin embargo la primera palabra NO.
 
-   c) Luego tenemos snake_case, la cual nos indica que cada palabra debe estar separada por un guión bajo.
+c) Luego tenemos snake_case, la cual nos indica que cada palabra debe estar separada por un guión bajo.
 
 4. Ahora creamos ejemplo de variables utilizando las convenciones:
 
@@ -28,7 +30,7 @@ Esta convención se utiliza por lo general en algunos lenguajes para nombrar con
 
 - #### camelCase:
 
-```
+```javascript
 let nombreCompleto;
 ```
 

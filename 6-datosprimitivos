@@ -1,0 +1,7 @@
+### Recapitulando
+
+- Los números son del tipo `number`;
+- Los textos son del tipo `string`;
+- True y False, corresponden a valores `boolean`;
+- Los valores que no inicialicemos, o que le asignemos el valor `undefined`, corresponden al tipo de dato `undefined`, undefined puede ser un valor o un tipo;
+- Luego tenemos `null`, tambien es un tipo de dato, el tipo de dato es null.
