@@ -20,28 +20,63 @@ Existen reglas para crear variables, algunas son prácticas de la industria, y o
 
 - #### UpperCamelCase:
 
-`let NombreCompleto;`
+```javascript
+let NombreCompleto;
+```
 
 Esta convención se utiliza por lo general en algunos lenguajes para nombrar constantes.
 
 - #### camelCase:
 
-`let nombreCompleto;`
+```
+let nombreCompleto;
+```
 
 **Nota:** Javascript es "case sensitive", esto quiere decir que si nosotros utilizamos mayúsculas o minúsculas, e incluso indicandole exactamente el mismo texto, Javascript va a entender que son dos variables completamente distintas, por eso si nosotros en "NombreCompleto":
 
-`let NombreCompleto;` <-- Chanchito
+```javascript
+let NombreCompleto; <-- Chanchito
+```
 
-le asignamos el nombre Chanchito, y la siguiente variable:
+Le asignamos el nombre Chanchito, y la siguiente variable:
 
-`let nombreCompleto;` <-- Felipe
+```javascript
+let nombreCompleto; <-- Felipe
+```
 
 le asignamos el nombre "Felipe", dependiendo del valor que nosotros queramos, es el nombre de la variable que nosotso vamos a colocar, dentro de console.log(nombre) <---.
 Entonces NO es los mismo, si yo coloco nombreCompleto, a poner NombreCompleto.
+
 La tercera convención que vamos a ver es la de snake_case, que debería escribirse de la siguiente manera:
 
-`let nombre_completo;`
+```javascript
+let nombre_completo;
+```
 
 La convención que mas se suele utilizar en Javascript es **camelCase**
 
 Ademas de definir una variable y asginarle un valor, lo que podemos hacer cuando estamos cuando las estamos definiendo con **LET**
+es indicarle, por ejemplo, ningun valor, solamente la declaramos, pero luego en un futuro podemos asignarle valor:
+
+```javascript
+let apellido;
+
+apellido = "Villagra";
+```
+
+Pero cuando hagamos eso, no tenemos que utilizar la palabra reservada de **LET**, LET solamente se utiliza para indicarle a Javascript que vamos a crear una variable, esta podría tener o no tener un valor, y luego, cuando nosotros quisieramos asignarle un valor, siempre y cuando esta ya se encuentre creada, debemos colocarle la palabra reservada de LET, basta con que solo coloquemos el nombre de la variable.
+Ademas, podriamos definir más de una variable en la misma línea:
+
+```javascript
+let apellido, animal;
+apellido = "Villagra";
+```
+
+Nos fijamos que no es necesario utiliza la palabra **LET**, que se entiende que la variable se encuentra separada por una coma, lo cual significa que la palabra que se encuentra luego de la coma tambien se encuentra inicializada. Sin embargo, la práctica que se utiliza hoy en día es, crear la variable en una línea independiente, de esta forma:
+
+```javascript
+let apellido;
+let animal;
+```
+
+NOTA: Cuando vayamos a crear una variable, es importante indicar el valor que vaya a tener.
